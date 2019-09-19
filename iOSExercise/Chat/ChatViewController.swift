@@ -58,9 +58,10 @@ class ChatViewController: UIViewController {
         self.tableView.endUpdates()
         self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
         
-        if !viewModel.getLastMessage().isIncoming {
-            bubbleAnimation(text)
-        }
+        // Disabled message animation it's awful
+//        if !viewModel.getLastMessage().isIncoming {
+//            bubbleAnimation(text)
+//        }
         
     }
     
