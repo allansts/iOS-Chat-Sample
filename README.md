@@ -1,3 +1,2 @@
-# iOS-Chat-Sample
-Sample of instant messaging app
+## iOS-Chat-Sample
 ![Chat Demo](demo.gif)
